@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(./fonts/Inter-Black.woff2) format('woff2');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter-Regular.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter-Bold.woff2) format('woff2');
+  font-weight: 700;
+}
+
+.page {
+  background-color: #2A2C2F;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page__header {
+  margin: 28px 48px 56px;
+}
+
+.header__logo {}
+
+.header__links {}
+
+.header__link {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+.header__link.active {
+  text-decoration: underline;
+}
+
+.main {}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__lead {
+  width: 1280px;
+  margin: 0 auto 92px;
+}
+
+.lead__title {
+  width: 720px;
+  min-height: 200px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  width: 640px;
+  min-height: 72px;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 auto 64px;
+  text-align: center;
+}
+
+.lead__sign {
+  margin: 0 auto;
+  position: relative;
+}
+
+.lead__img {
+  width: 984px;
+}
+
+.lead__map {
+  position: absolute;
+  left: 0;
+  top: 15%;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 8px 0 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__intro {
+  margin: 0 auto 92px;
+  width: 984px;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  width: 690px;
+  min-height: 58px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  margin: 0 0 33px;
+  width: 690px;
+  min-height: 208px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.intro__lists {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__list {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
