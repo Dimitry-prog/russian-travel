@@ -24,6 +24,11 @@
   color: #fff;
 }
 
+.page__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -251,7 +256,21 @@
   background-size: cover;
 }
 
-.main__cover::before {
+.cover__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(16, 17, 18, .3);
+}
+
+.cover__overlay:hover {
+  background: rgba(16, 17, 18, .8);
+}
+
+
+/* .main__cover::before {
   content: '';
   position: absolute;
   top: 0;
@@ -265,7 +284,7 @@
 .main__cover:hover::before {
   background: rgba(16, 17, 18, .8);
   cursor: pointer;
-}
+} */
 
 .cover__title {
   margin: 0 auto 32px;
