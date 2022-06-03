@@ -59,11 +59,12 @@
 .lead {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .main__lead {
-  width: 1280px;
-  margin: 0 auto 92px;
+  min-width: 984px;
+  margin: 0 0 92px;
 }
 
 .lead__title {
@@ -72,7 +73,7 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  margin: 0 auto 32px;
+  margin: 0 0 32px;
   text-align: center;
 }
 
@@ -81,18 +82,16 @@
   min-height: 72px;
   font-size: 30px;
   line-height: 36px;
-  margin: 0 auto 64px;
+  margin: 0 0 64px;
   text-align: center;
 }
 
 .lead__sign {
-  margin: 0 auto;
+  margin: 0 auto 8px;
   position: relative;
 }
 
-.lead__img {
-  width: 984px;
-}
+.lead__img {}
 
 .lead__map {
   position: absolute;
@@ -108,19 +107,19 @@
   margin: 8px 0 0;
 }
 
+.main__intro {
+  margin: 0 auto 92px;
+  max-width: 984px;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
 }
 
-.main__intro {
-  margin: 0 auto 92px;
-  width: 984px;
-}
-
 .intro__title {
   margin: 0 0 40px;
-  width: 690px;
+  max-width: 690px;
   min-height: 58px;
   font-weight: 900;
   font-size: 54px;
@@ -129,7 +128,7 @@
 
 .intro__text {
   margin: 0 0 33px;
-  width: 690px;
+  max-width: 690px;
   min-height: 208px;
   font-size: 16px;
   line-height: 26px;
@@ -145,4 +144,18 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+}
+
+.photo-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+.page__photo-grid {
+  margin: 0 48px;
+}
+
+.photo-grid__item {
+  justify-self: stretch;
 }
