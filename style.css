@@ -69,7 +69,7 @@
 
 .main__lead {
   min-width: 984px;
-  margin: 0 0 92px;
+  margin: 0 auto 92px;
 }
 
 .lead__title {
@@ -92,14 +92,19 @@
 }
 
 .lead__sign {
-  margin: 0 auto 8px;
+  overflow: hidden;
+  max-width: 984px;
+  margin: 0 auto;
   position: relative;
 }
 
-.lead__img {}
+.lead__img {
+  width: 100%;
+}
 
 .lead__map {
   position: absolute;
+  width: 100%;
   left: 0;
   top: 15%;
 }
@@ -349,4 +354,29 @@
   margin: 0;
   font-size: 14px;
   line-height: 16px;
+}
+
+@media screen and (max-width: 1100px) {
+  .main__lead {
+    max-width: 928px;
+    margin: 0 0 92px;
+  }
+  .lead__sign {
+    max-width: 928px;
+    margin: 0 48px;
+  }
+  .main__intro {
+    margin: 0 48px 92px;
+  }
+  .photo-grid {
+    gap: 14px;
+  }
+  .page__places {
+    margin: 0 48px 92px;
+    max-width: 928px;
+    column-gap: 32px;
+  }
+  .main__cover {
+    margin: 0 0 92px;
+  }
 }
