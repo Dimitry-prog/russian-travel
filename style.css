@@ -170,7 +170,7 @@
 .places__place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
   margin-bottom: 80px;
 }
@@ -182,16 +182,19 @@
   line-height: 76px;
   grid-column: 1/2;
   grid-row: 1/2;
+  align-self: flex-end;
 }
 
 .places__img {
-  width: 460px;
   grid-column: 1/2;
   grid-row: 2/-1;
+  justify-self: stretch;
 }
 
 .places__website {
   grid-column: 2/-1;
+  align-self: flex-end;
+  margin-bottom: 48px;
 }
 
 .places__url-heading {
@@ -205,9 +208,8 @@
 .places__link {
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  text-decoration: underline;
   color: #FFFFFF;
-  margin-bottom: 48px;
 }
 
 .places__text {
