@@ -426,17 +426,20 @@
     margin: 0 0 40px;
   }
   .photo-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(288px, 1fr);
     row-gap: 12px;
   }
   .page__photo-grid {
-    margin: 0 16px 64px;
+    margin: 0 0 64px;
+  }
+  .photo-grid__item {
+    padding: 0 16px;
   }
   .page__places {
     margin: 0 0 66px;
   }
   .places__place {
-    grid-template-columns: min-content;
+    grid-template-columns: minmax(320px, 1fr);
     grid-template-rows: repeat(4, min-content);
     margin-bottom: 50px;
     gap: 0;
@@ -462,9 +465,11 @@
   .places__paragraph {
     margin: 0 16px 25px;
   }
+  .cover {
+    min-height: 200px;
+  }
   .main__cover {
     margin: 0 0 64px;
-    object-fit: contain;
   }
   .cover__title {
     margin: 0 auto 16px;
