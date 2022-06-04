@@ -1,4 +1,11 @@
-.place__text {
-  grid-column: 2/-1;
-  grid-row: 2/-1;
-}
+  .place__text {
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+  }
+
+  @media screen and (max-width: 680px) {
+    .place__text {
+      grid-row: 4/ -1;
+      grid-column: 1;
+    }
+  }

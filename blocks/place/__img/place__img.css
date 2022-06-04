@@ -1,5 +1,12 @@
-.place__img {
-  grid-column: 1/2;
-  grid-row: 2/-1;
-  justify-self: stretch;
-}
+  .place__img {
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    justify-self: stretch;
+  }
+
+  @media screen and (max-width: 680px) {
+    .place__img {
+      grid-row: 3/4;
+      margin: 0 0 32px;
+    }
+  }

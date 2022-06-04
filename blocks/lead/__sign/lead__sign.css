@@ -1,6 +1,12 @@
-.lead__sign {
-  overflow: hidden;
-  max-width: 984px;
-  margin: 0 auto;
-  position: relative;
-}
+  .lead__sign {
+    overflow: hidden;
+    max-width: 984px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  @media screen and (max-width: 680px) {
+    .lead__sign {
+      margin: 0;
+    }
+  }

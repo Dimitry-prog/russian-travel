@@ -1,4 +1,22 @@
-.main__lead {
-  max-width: 984px;
-  margin: 0 auto 92px;
-}
+  .main__lead {
+    max-width: 984px;
+    margin: 0 auto 92px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .main__lead {
+      margin: 0 48px 92px;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .main__lead {
+      margin: 0 0 88px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .main__lead {
+      margin: 0 2px 64px;
+    }
+  }

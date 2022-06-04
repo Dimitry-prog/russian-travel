@@ -1,6 +1,24 @@
-.main__cover {
-  margin: 0 48px 92px;
-  background-image: url(./images/cover__background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .main__cover {
+    margin: 0 48px 92px;
+    background-image: url(../../../images/cover__background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .main__cover {
+      margin: 0 0 92px;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .main__cover {
+      margin-bottom: 88px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .main__cover {
+      margin: 0 0 64px;
+    }
+  }

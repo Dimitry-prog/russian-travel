@@ -1,5 +1,13 @@
-.place__website {
-  grid-column: 2/-1;
-  align-self: flex-end;
-  margin-bottom: 48px;
-}
+  .place__website {
+    grid-column: 2/-1;
+    align-self: flex-end;
+    margin-bottom: 48px;
+  }
+
+  @media screen and (max-width: 680px) {
+    .place__website {
+      grid-row: 2/3;
+      grid-column: 1;
+      margin: 0 16px 32px;
+    }
+  }
