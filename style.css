@@ -209,7 +209,7 @@
 
 .places__url-heading {
   font-size: 12px;
-  line-height: 12px;
+  line-height: 20px;
   letter-spacing: 2px;
   color: #AAAAAA;
   margin: 0 0 12px;
@@ -354,13 +354,14 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .main__lead {
-    max-width: 928px;
-    margin: 0 0 92px;
+  .page__header {
+    margin-bottom: 48px;
   }
-  .lead__sign {
-    max-width: 928px;
-    margin: 0 48px;
+  .main__lead {
+    margin: 0 48px 92px;
+  }
+  .lead__subtitle {
+    margin-bottom: 56px;
   }
   .main__intro {
     margin: 0 48px 92px;
@@ -373,6 +374,9 @@
     max-width: 928px;
     column-gap: 32px;
   }
+  .cover {
+    min-height: 680px;
+  }
   .main__cover {
     margin: 0 0 92px;
   }
@@ -381,6 +385,49 @@
 @media screen and (max-width: 860px) {
   .page__header {
     margin: 28px 24px 48px;
+  }
+  .main__lead {
+    margin: 0 0 88px;
+  }
+  .lead__caption {
+    margin-left: 24px;
+  }
+  .main__intro {
+    margin: 0 24px 88px;
+  }
+  .photo-grid {
+    gap: 16px
+  }
+  .page__photo-grid {
+    margin: 0 24px 88px;
+  }
+  .page__places {
+    margin: 0 24px 90px;
+  }
+  .places__place {
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 24px;
+  }
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .places__subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .places__url-heading {
+    line-height: 12px;
+  }
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .cover {
+    min-height: 480px;
+  }
+  .main__cover {
+    margin-bottom: 88px;
   }
   .page__footer {
     margin: 0 24px 24px;
@@ -466,7 +513,7 @@
     margin: 0 16px 25px;
   }
   .cover {
-    min-height: 200px;
+    min-height: 360px;
   }
   .main__cover {
     margin: 0 0 64px;
@@ -500,5 +547,11 @@
   .menu__link {
     font-size: 24px;
     line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover {
+    min-height: 200px;
   }
 }
