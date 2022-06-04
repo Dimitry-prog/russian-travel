@@ -551,7 +551,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .places__place {
+    grid-template-columns: minmax(320px, 1fr);
+  }
   .cover {
-    min-height: 200px;
+    min-height: 280px;
   }
 }
