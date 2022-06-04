@@ -1,0 +1,5 @@
+.place__img {
+  grid-column: 1/2;
+  grid-row: 2/-1;
+  justify-self: stretch;
+}

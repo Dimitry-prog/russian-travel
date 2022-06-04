@@ -1,0 +1,6 @@
+.main__cover {
+  margin: 0 48px 92px;
+  background-image: url(./images/cover__background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

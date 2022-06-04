@@ -2,3 +2,22 @@
 от 984px до 1140px - ноутбуки. Сюда попадает макет 1024px.
 от 568 до 984px - планшеты. Сюда попадает макет 768px.
 <568px - мобильные устройства. Сюда попадает макет 320px.
+
+
+
+
+/* .main__cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(16, 17, 18, .3);
+  z-index: 1;
+}
+
+.main__cover:hover::before {
+  background: rgba(16, 17, 18, .8);
+  cursor: pointer;
+} */

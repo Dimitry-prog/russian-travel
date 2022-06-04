@@ -1,0 +1,15 @@
+.cover {
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.cover:hover {
+  cursor: pointer;
+}
+
+.cover:hover .cover__overlay {
+  background: rgba(16, 17, 18, .8);
+}
