@@ -1,3 +1,7 @@
+.photo-grid__item {
+  justify-self: stretch;
+}
+
 @media screen and (max-width: 860px) {
   .place__subtitle {
     font-size: 16px;
