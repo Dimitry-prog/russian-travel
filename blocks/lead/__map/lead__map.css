@@ -4,3 +4,12 @@
   left: 0;
   top: 15%;
 }
+
+@media screen and (max-width: 860px) {
+  .lead__map {
+    width: 95%;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+  }
+}
