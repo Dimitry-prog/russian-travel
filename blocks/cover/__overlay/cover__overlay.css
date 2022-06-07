@@ -14,3 +14,7 @@
    opacity: .3;
    z-index: -1;
  }
+ 
+ .cover__overlay:hover::before {
+   opacity: .8;
+ }
