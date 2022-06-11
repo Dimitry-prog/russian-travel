@@ -22,3 +22,10 @@
       row-gap: 12px;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .photo-grid {
+      grid-template-columns: minmax(271px, 1fr);
+      row-gap: 12px;
+    }
+  }
