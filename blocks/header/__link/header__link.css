@@ -4,7 +4,11 @@
     line-height: 28px;
     text-decoration: none;
   }
-  
+
+  .header__link:hover {
+    opacity: .8;
+  }
+
   @media screen and (max-width: 680px) {
     .header__link {
       font-size: 18px;

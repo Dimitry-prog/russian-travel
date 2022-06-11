@@ -11,4 +11,7 @@
     margin-right: 0;
     margin-bottom: 32px;
   }
+  .menu__item:last-of-type {
+    margin-bottom: 48px;
+  }
 }
